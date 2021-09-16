@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.header_nav{
+width: 100vw;
+height: 8vh;
+background-color: rgb(42, 9, 73);
+display: flex;
+align-items: center;
+position:fixed;
+z-index: 100;
+}
+.nav_logo{
+    width: 110px;
+    object-fit:contain;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top:12px;
+}
+.header_search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.98;
+
+}
+.search_input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.header_searchIcon{
+    background-color: orange;
+    padding: 8px;
+    cursor: pointer;
+}
+.header_links{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+    margin-left: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.frst_link{
+    font-size:smaller;
+    font-weight:100;
+}
+.second_link{
+    font-weight: bold;
+    margin-right: 15px;
+}
+.basket_div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.basket_icon{
+    margin-right: 3px;
+}
+
+.home_banner {
+    width: 100vw;
+    margin-top: 30px;
+    /* mask-image: linear-gradient(to bottom,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0),white); */
+    z-index: -1;
+ 
+}
+.product_row1{
+    width: 100vw;
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+font-family: 'Saira Condensed', sans-serif;
+color:black;
+margin-bottom: 45px;
+}
+.product_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+.rating{
+    color: gold;
+}
+.product{
+    width: 250px;
+    margin: 35px;
+}
+.basket_btn{
+    background-color: orange;
+    border: 1px solid black;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+.product_row2{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100vw;
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 10px;
+    color:black;
+
+
+}
+.product_div2{
+    width:30% ;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.row2_img{
+    width: 300px;
+}
